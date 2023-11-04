@@ -20,6 +20,26 @@ javac tn/esprit/*.java
 java tn.esprit.Main
 ````
 
+## Build with docker
+
+1. **Build** the project.
+
+````bash
+mvn clean package
+````
+
+2. **Build** the docker image.
+
+````bash
+docker build -t <image_name> .
+````
+
+3. **Run** the docker image.
+
+````bash
+docker run <image_name>
+````
+
 ## Collaborate
 
 1. **Fork** the repository to your GitHub account.
@@ -58,67 +78,98 @@ git push origin <branch_name>
 ## Git Commands
 
 - **git clone** : Clone a repository into a new directory.
+
 ```bash
 git clone <repository_url>
 ```
+
 - **git add** : Add file contents to the index.
+
 ```bash
 git add <file_name>
 ```
+
 - or to add all files
+
 ```bash
 git add .
 ```
+
 - **git commit** : Record changes to the repository.
+
 ```bash
 git commit -m "your message"
 ```
+
 - **git push** : Update remote refs along with associated objects.
+
 ```bash
 git push origin <branch_name>
 ```
+
 - **git pull** : Fetch from and integrate with another repository or a local branch.
+
 ```bash
 git pull origin <branch_name>
 ```
+
 - **git checkout** : Switch branches or restore working tree files.
+
 ```bash
 git checkout <branch_name>
 ```
+
 - **git branch** : List, create, or delete branches.
+
 ```bash
 git branch 
 ```
+
 - **git status** : Show the working tree status.
+
 ```bash
 git status
 ```
+
 - **git log** : Show commit logs.
+
 ```bash
 git log
 ```
+
 - **git reset** : Reset current HEAD to the specified state.
+
 ```bash
 git reset <commit_id>
 ```
+
 - **git tag** : Create, list, delete or verify a tag object signed with GPG.
+
 ```bash
 git tag <tag_name>
 ```
+
 - **git fetch** : Download objects and refs from another repository.
+
 ```bash
 git fetch
 ```
+
 ## Contribution
+
 If you'd like to contribute to this project, please fork the repository, make your changes, and create a pull request
 Your contributions are welcome!
 
 ## License
+
 This project is licensed under the MIT License - see the `LICENSE` file for details
+
 ## Authors
+
 - Melek Homrani
 - Mohamed Aziz Rahali
 
 ## Contact
+
 - Melek Homrani: melek.homrani@esprit.tn
 - Mohamed Aziz Rahali: mohamedaziz.rahali@esprit.tn
