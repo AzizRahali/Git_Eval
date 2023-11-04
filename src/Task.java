@@ -1,3 +1,4 @@
+
 import java.util.Objects;
 
 public class Task {
@@ -40,6 +41,7 @@ public class Task {
                 '}';
     }
 
+
     public int getId() {
         return id;
     }
@@ -56,6 +58,7 @@ public class Task {
         this.name = name;
     }
 
+
     public String getDescription() {
         return description;
     }
@@ -70,5 +73,6 @@ public class Task {
 
     public void setDone(boolean done) {
         this.done = done;
+
     }
 }
