@@ -15,12 +15,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -97,7 +101,6 @@
       <option name="presentableId" value="Default" />
       <updated>1699091867326</updated>
       <workItem from="1699091868358" duration="1000" />
-      <workItem from="1699092512032" duration="1508000" />
     </task>
     <servers />
   </component>
